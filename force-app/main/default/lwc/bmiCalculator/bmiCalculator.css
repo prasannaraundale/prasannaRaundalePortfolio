@@ -1,0 +1,76 @@
+:host(){
+    --dark-blue:#0b0d21;
+    --dull-blue:#1d1e33;
+    --light-white:#fafafa;
+    --light-blue:#4f7df9;
+    --light-pink:#e91e63;
+    --size-16:16px;
+    --size-14:14px;
+    --size-12:12px;
+    --size-38:38px;
+}
+.app{
+    
+    min-height:100vh;
+    background-image: url(/sfsites/c/resource/BmiAppBackground);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.box{
+    max-width: 420px;
+    text-align: center;
+    margin: auto;
+    background: var(--dark-blue);
+    color: var(--light-white);
+    padding:var(--size-16);
+    border-radius: var(--size-38);
+}
+h1{
+    
+        font-size: 36px;
+        padding: 20px 0;
+        font-weight: bold;
+    
+}
+.info-wrapper{
+    background:var(--dull-blue);
+    padding: var(--size-16);
+    border-bottom-left-radius: var(--size-38);
+    border-bottom-right-radius: var(--size-38);
+    font-size:var(--size-14);
+    text-align: center;
+
+}
+h2{
+        font-size: 26px;
+        color:var(--light-pink);
+    
+}
+h3{
+    font-size: 26px;
+    color:#fb8608;
+
+
+}
+label{
+    font-size: 20px;
+    color: whitesmoke;
+
+}
+input{
+    color: #1d1e33;
+    padding: 8px;
+    font-size: 16px;
+}
+.custom-button{
+    background: #7e1016bd;
+    font-size: 30px;
+    padding: 14px;
+    color: rgb(240 237 237);
+    border-color: brown;
+}
+.result-value {
+    font-size: 30px;
+    color: dodgerblue;
+}
