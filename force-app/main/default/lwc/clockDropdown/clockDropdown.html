@@ -3,10 +3,10 @@
         <label class="slds-form-element__label custom-label" for="select-hours">{label}</label>
             <div class="slds-form-element__control">
              <div class="slds-select_container">
-            <select class="slds-select custom-select" id="select-hours">
+            <select class="slds-select custom-select" id="{}">
              <option value="">Select…</option>
-                <template for:each={hours} for:item="hour">
-                 <option value={hour} key={hour}>{hour}</option>
+                <template for:each={options} for:item="option">
+                 <option value={option} key={option}>{option}</option>
                 </template>
             </select>
              </div>
