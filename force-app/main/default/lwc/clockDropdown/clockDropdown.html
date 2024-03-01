@@ -1,9 +1,10 @@
 <template>
     <div class="slds-form-element">
-        <label class="slds-form-element__label custom-label" for="select-hours">{label}</label>
+        <label class="slds-form-element__label custom-label" for="select-hour">{label}</label>
             <div class="slds-form-element__control">
              <div class="slds-select_container">
-            <select class="slds-select custom-select" id="{}">
+        
+            <select class="slds-select custom-select" id={uniqueId}>
              <option value="">Select…</option>
                 <template for:each={options} for:item="option">
                  <option value={option} key={option}>{option}</option>
